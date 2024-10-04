@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".viewTourPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".AddTourPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".CityClick1"
+            android:exported="false" />
+        <activity
+            android:name=".CityClick2"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteProfile"
+            android:exported="false" />
+        <activity
+            android:name=".EditMyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".GuideHome"
+            android:exported="false" />
+        <activity
+            android:name=".SignInGuide"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpGuide"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SignInSuccessPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SelectedPage"
+            android:exported="false" />
+        <activity
+            android:name=".getStartedpage2"
+            android:exported="false" />
+        <activity
+            android:name=".getStartedpage1"
+            android:exported="false" />
+        <activity
+            android:name=".GetStartedpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

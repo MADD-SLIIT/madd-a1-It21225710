@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519022209583",
+    "project_id": "wander-cfdfa",
+    "storage_bucket": "wander-cfdfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519022209583:android:6e376dce470915186d34da",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30BA1yoqTiFWeC8ZbTt2mO1z9VX9DjBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
